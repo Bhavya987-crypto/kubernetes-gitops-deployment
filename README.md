@@ -26,6 +26,17 @@ GitHub → ArgoCD → Kubernetes Cluster
 
 ---
 
+## 🏗 Architecture
+
+GitHub → ArgoCD → Kubernetes Cluster
+
+- GitHub stores desired state
+- ArgoCD monitors repository
+- ArgoCD syncs changes to cluster
+- Kubernetes runs containerized application
+
+---
+
 ## 📂 Repository Structure
 
 - `k8s-manifests/` – Kubernetes Deployment, Service, Ingress
